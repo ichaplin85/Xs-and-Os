@@ -1,0 +1,43 @@
+.wrapper {
+  min-height: 100vh;
+  width: 100%;
+  background-color:black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+
+.wrapper__winner {
+  padding-top: 20px;
+  color: #fff;
+  font-size: 35px;
+}
+
+.wrapper__input {
+  background-color: rgb(75, 72, 72);
+  color: #fff;
+  margin-bottom: 15px;
+  width: 150px;
+  font-size: 15px;
+}
+
+.wrapper__statisctics {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.wrapper__statisctics-item {
+  font-size: 30px;
+}
+
+.wrapper__statisctics-title {
+  font-size: 35px;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,35 @@
+.App {
+  width: 100%;
+  min-height: 100vh;
+  background-color:black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.wrapper-pole {
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+.pole {
+  border: 1px solid yellow;
+  cursor: pointer;
+}
+
+.btn {
+  margin-bottom: 20px;
+  font-size: 24px;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color:rgb(161, 161, 161);  
+  transition: 0.3 all ease;
+}
