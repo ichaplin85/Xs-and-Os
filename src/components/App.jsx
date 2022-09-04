@@ -8,11 +8,6 @@ function App() {
   const [startGame, setStartGame] = useState(false);
   const [square, setSquare] = useState(3);
 
-  // const resetGameNames = () => {
-  //   setStartGame(false);
-  //   setoName('');
-  //   setxName('');
-  // }
 
   const addWinsStatic = useCallback((name) => {
     if (name === 'X') {
@@ -51,7 +46,6 @@ function App() {
         <div className='wrapper-pole' onClick={handleClick}>
           <div className='pole' data-value="3">3x3</div>
           <div className='pole' data-value="5">5x5</div>
-          <div className='pole' data-value="10">10x10</div>
         </div>
         <button className='btn' onClick={() => setStartGame(true)}>start game</button>
       </>
